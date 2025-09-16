@@ -1,0 +1,17 @@
+[package]
+name = "GuestPasses"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xae94ddf8e8a762772ab95a1881d943b8f4172da695c46fc79043ba15b0eed9f3"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
